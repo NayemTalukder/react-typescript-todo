@@ -1,0 +1,7 @@
+@import '../asset/scss/typography';
+
+.StartPage {
+  @extend %center;
+  @extend %cover;
+  background-color: $primaryColor;
+}

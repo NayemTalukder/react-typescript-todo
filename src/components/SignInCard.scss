@@ -1,0 +1,51 @@
+@import '../asset/scss/typography';
+
+.SignInCard {
+  @extend %center;
+  flex-direction: column;
+  // display: flex;
+  // justify-content: space-between;
+  // background-color: $secondaryColor;
+  width: 30%;
+  // height: 25%;
+  padding: 2%;
+  // filter: drop-shadow(0.1rem 0.1rem 0.4rem rgba(0, 0, 0, 0.5));
+}
+
+
+.SignInBoxContainer {
+  background-color: $secondaryColor;
+  width: 100%;
+  height: 90%;
+  padding: 3%;
+  filter: drop-shadow(0.1rem 0.1rem 0.4rem rgba(0, 0, 0, 0.5));
+}
+
+.SignInHeadingContainer {
+  padding: 1vw;
+}
+
+.SignInHeading {
+  font-size: 2vw;
+  color: $white;
+}
+
+.FooterTextContainer {
+  margin-top: 1vw;
+  margin-bottom: .3vw;
+}
+
+.FooterText {
+  color: $white;
+}
+
+.FooterAuthButton {
+  margin-left: 1vw;
+  color: black;
+  cursor: pointer;
+}
+
+.FooterAuthButton:hover {
+  color: $white;
+  font-size: 1.3vw;
+}

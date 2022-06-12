@@ -1,0 +1,34 @@
+@import '../asset/scss/typography';
+
+.FormItem {
+  @extend %center;
+  align-items: unset;
+  flex-direction: column;
+}
+
+.FormItemLabelContainer {
+  padding-top: .5vw;
+  padding-bottom: .5vw;
+}
+
+.FormItemLabel {
+  font-size: 1.5vw;
+  color: $white;
+}
+
+.InputField {
+  height: 2.5vw;
+  border: none;
+}
+
+.InputField:focus {
+  // height: 2.5vw;
+  border: 1px solid $tertiaryColor;
+}
+
+input[placeholder] {
+  padding-left: 1vw;
+  color: $placeholder;
+  font-size: .9vw;
+}
+

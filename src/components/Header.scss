@@ -1,0 +1,28 @@
+@import '../asset/scss/typography';
+
+.Header {
+  @extend %center;
+  align-items: unset;
+  margin-top: 4%;
+  width: 90%;
+  height: 7%;
+}
+
+.HeaderContainer {
+  width: 100%;
+  display: flex;
+  // flex-direction: row;
+  // justify-items: center;
+}
+
+.HeadingContainer {
+  @extend %center;
+  // width: 90%;
+  width: 100%;
+}
+
+.Heading {
+  color: $white;
+  // font-size: 20px;
+  font-size: 5vw;
+}

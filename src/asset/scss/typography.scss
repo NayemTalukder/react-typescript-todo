@@ -1,0 +1,71 @@
+// variables [colors]
+$primaryColor: #9109F6;
+$secondaryColor: #09F691;
+$tertiaryColor: #F69109;
+
+$white: #FFFFFF;
+$placeholder: #857E7E;
+
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+
+// Extend/Inheritance
+%center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+%cover {
+  height: 100vh;
+  width: 100vw;
+}
+
+%marginAuto {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+%topFixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+%bottomFixed {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+
+/*----------------------------------------------
+Color
+------------------------------------------------*/
+.color-primary { color: $primaryColor !important; }
+.color-secondary { color: $secondaryColor !important; }
+.color-tertiary { color: $tertiaryColor !important; }
+
+//  Text
+.text-center { text-align: center !important; }
+.text-white { color: $white !important; }
+
+/*----------------------------------------------
+Font Family
+------------------------------------------------*/
+.font-roboto-italic { 
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 300;
+}
+
+.font-roboto { 
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+}

@@ -1,5 +1,5 @@
 import React from 'react'
-import './StartPage.css'
+import './StartPage.scss'
 import StartPageActionBox from '../components/StartPageActionBox'
 
 const StartPage: React.FC = () => {

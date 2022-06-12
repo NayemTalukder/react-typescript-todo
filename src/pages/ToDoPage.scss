@@ -1,0 +1,8 @@
+@import '../asset/scss/typography';
+
+.ToDoPage {
+  @extend %center;
+  @extend %cover;
+  align-items: unset;
+  background-color: $primaryColor;
+}
