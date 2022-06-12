@@ -1,0 +1,43 @@
+.ActionBox {
+  background-color: #F69109;
+  display: flex;
+  justify-content: center;
+  width: 46.9%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.ActionBox:hover {
+  cursor: pointer;
+  background-color: #9109F6;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.5) 0.35rem 0.35rem 0.4rem;
+  /* filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5)); */
+}
+
+.ActionBoxContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image {
+  height: 70%;
+}
+
+.labelTextContainer {
+  height: 30%;
+  width: 85%;
+  display: flex;
+  justify-content: center;
+}
+
+.LabelText {
+  color: #ffffff;
+  text-align: center;
+  font-size: 105%;
+  align-self: center;
+}

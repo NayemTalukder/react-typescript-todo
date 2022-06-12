@@ -1,0 +1,13 @@
+.StartPageActionBox {
+  background-color: #09F691;
+  width: 30%;
+  height: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 2%;
+  display: flex;
+  justify-content: space-between;
+  filter: drop-shadow(0.1rem 0.1rem 0.4rem rgba(0, 0, 0, 0.5));
+}
